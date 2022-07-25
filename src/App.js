@@ -671,8 +671,10 @@ function App() {
         <div id="copyright">&copy; All Rights Reserved 2019-2020</div>
         <div id="owner">
           <span>
-            Designed by{" "}
-            <a href="https://www.codingtuting.com">CodingTuting.Com</a>
+            Designed by
+            <a href="https://www.myhealthsentinel.com/">
+              MyHealth Sentinel Holding Pte Ltd
+            </a>
           </span>
         </div>
         <a href="#topHeader" id="gotop">
