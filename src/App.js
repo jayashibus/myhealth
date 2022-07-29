@@ -1,16 +1,20 @@
 import "./App.css";
+import logo from "./images/logo.png";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
     <div className="App">
       <header id="topHeader">
         <ul id="topInfo">
-          <li>+974 98765432</li>
-          <li>info@itecnology.com</li>
+          <li>+65 93358594</li>
+          <li>sales@myhealthsentinel.com</li>
         </ul>
 
         <nav>
-          <span class="logo">MyHealth</span>
+          <span class="logo">
+            <img src={logo} alt="Logo" />
+          </span>
           <div class="menu-btn-3" onclick="menuBtnFunction(this)">
             <span></span>
           </div>
@@ -24,18 +28,14 @@ function App() {
             <a href="/#">
               <span>Products & Solutions</span>
             </a>
-            <a href="/#">
-              <span>News Center</span>
-            </a>
+
             <a href="/#">
               <span>Sustainability</span>
             </a>
             <a href="/#">
               <span>Join Us</span>
             </a>
-            <a href="/#">
-              <span>Case Studies</span>
-            </a>
+
             <a href="/#">Contact US</a>
           </div>
         </nav>
@@ -44,9 +44,13 @@ function App() {
       <section id="intro">
         <div id="intro-info">
           <div>
-            <h1>Full Service Mobile App Development Company</h1>
+            <h1>TM+ Telehealth APP</h1>
             <div id="intro-tag-btn">
-              <span>Over 100M app downloads across 1500+ projects.</span>
+              <span>
+                Over 6K app downloads across world wide.For Family caregiver, a
+                simple to use mobile apps to monitor the health of the loved
+                ones with competitive pricing
+              </span>
               <a href="/#" class="brand-btn">
                 Let's Talk
               </a>
@@ -64,7 +68,7 @@ function App() {
       </section>
 
       <section id="delivery">
-        <h1 class="sec-heading">Delivering Experience Since 2009</h1>
+        <h1 class="sec-heading">Company Profile</h1>
         <div class="col-5 delivery-img">
           <img
             src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1"
@@ -73,19 +77,26 @@ function App() {
           />
         </div>
         <div class="col-7">
-          <h2>Accelerating your business growth with Digital Experiences</h2>
+          <h2>
+            myHealth Sentinel enables medical data connectivity in all
+            Integrated Healthcare Organizations
+          </h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            <br />
-            <br /> It has survived not only five centuries, but also the leap
-            into electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            <ul>
+              <li>
+                “TeleMetrix+” (TM+) is the first cloud-based commercial
+                Telehealth service in Singapore. TM+ is developed and owned by
+                mHS.
+              </li>
+              <li>
+                “DeviceConx” is one of the top Medical Device Integration
+                solutions for hospitals in the USA.
+              </li>
+              <li>
+                “Data Innovations laboratory middleware” is the world’s largest,
+                clinical and blood laboratory middleware solution.
+              </li>
+            </ul>
           </p>
           <div class="btn-footer">
             <a href="/#" class="brand-btn">
@@ -510,177 +521,7 @@ function App() {
           </a>
         </div>
       </section>
-
-      <footer>
-        <div>
-          <span class="logo">iTechnology</span>
-        </div>
-
-        <div class="row">
-          <div class="col-3">
-            <span class="footer-cat">Solution</span>
-            <ul class="footer-cat-links">
-              <li>
-                <a href="/#">
-                  <span>Interprise App Development</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Android App Development</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>ios App Development</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-3">
-            <span class="footer-cat">Industries</span>
-            <ul class="footer-cat-links">
-              <li>
-                <a href="/#">
-                  <span>Healthcare</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Sports</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>ECommerce</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Construction</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Club</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-3">
-            <span class="footer-cat">Quick Links</span>
-            <ul class="footer-cat-links">
-              <li>
-                <a href="/#">
-                  <span>Reviews</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Terms & Condition</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Disclaimer</span>
-                </a>
-              </li>
-              <li>
-                <a href="/#">
-                  <span>Site Map</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-3" id="newsletter">
-            <span class="footer-cat">Stay Connected</span>
-            <form id="subscribe">
-              <input
-                type="email"
-                id="subscriber-email"
-                placeholder="Enter Email Address"
-              />
-              <input type="submit" value="Subscribe" id="btn-scribe" />
-            </form>
-
-            <div class="social-links social-2">
-              <a href="/#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="/#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="/#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="/#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="/#">
-                <i class="fab fa-tumblr"></i>
-              </a>
-              <a href="/#">
-                <i class="fab fa-reddit-alien"></i>
-              </a>
-            </div>
-
-            <div id="address">
-              <span class="footer-cat">Office Location</span>
-              <ul>
-                <li>
-                  <i class="far fa-building"></i>
-                  <div>
-                    Los Angeles
-                    <br />
-                    Office 9B, Sky High Tower, New A Ring Road, Los Angeles
-                  </div>
-                </li>
-                <li>
-                  <i class="fas fa-gopuram"></i>
-                  <div>
-                    Delhi
-                    <br />
-                    Office 150B, Behind Sana Gate Char Bhuja Tower, Station
-                    Road, Delhi
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="social-links social-1 col-6">
-            <a href="/#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="/#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="/#">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="/#">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="/#">
-              <i class="fab fa-tumblr"></i>
-            </a>
-            <a href="/#">
-              <i class="fab fa-reddit-alien"></i>
-            </a>
-          </div>
-        </div>
-        <div id="copyright">&copy; All Rights Reserved 2019-2020</div>
-        <div id="owner">
-          <span>
-            Designed by
-            <a href="https://www.myhealthsentinel.com/">
-              MyHealth Sentinel Holding Pte Ltd
-            </a>
-          </span>
-        </div>
-        <a href="#topHeader" id="gotop">
-          Top
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }

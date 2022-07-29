@@ -17,7 +17,7 @@ h1,
 h2,
 h3 {
   font-family: roboto;
-  color: #2e2e2e;
+  color: #812991;
 }
 
 .col-5 {
@@ -58,7 +58,7 @@ p {
   padding: 0;
   margin-top: 10px;
   text-align: right;
-  color: #2e2e2e;
+  color: #812991;
 }
 
 #topInfo li {
@@ -71,7 +71,7 @@ p {
 }
 
 .logo {
-  color: #ef4b42;
+  color: #812991;
   font-size: 28px;
   font-family: roboto;
 }
@@ -90,7 +90,7 @@ nav {
   font-size: 20px;
   text-decoration: none;
   font-weight: 500;
-  color: #2e2e2e;
+  color: #812991;
   position: relative;
 
   -webkit-transition: all 0.3s ease-in-out;
@@ -99,7 +99,7 @@ nav {
 
 .mainMenu a:hover,
 .mainMenu a:focus {
-  color: #ef4b42;
+  color: #812991;
 }
 
 .mainMenu a:not(:last-child):hover:after,
@@ -116,7 +116,7 @@ nav {
   left: 50%;
   position: absolute;
   width: 0;
-  background: #ef4b42;
+  background: #812991;
 
   -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -127,17 +127,17 @@ nav {
 }
 
 .mainMenu a:last-child {
-  border: 2px solid #ef4b42;
+  border: 2px solid #812991;
   padding: 8px 16px !important;
   font-size: 17px;
   border-radius: 20px;
   text-align: center;
-  color: #ef4b42;
+  color: #812991;
 }
 
 .mainMenu a:last-child:hover,
 .mainMenu a:last-child:focus {
-  background-color: #ef4b42;
+  background-color: #812991;
   color: white;
 }
 
@@ -172,8 +172,8 @@ nav {
 
 .brand-btn {
   text-decoration: none;
-  background-color: #ef4b42;
-  border: 2px solid #ef4b42;
+  background-color: #812991;
+  border: 2px solid #812991;
   color: white;
   padding: 10px 40px;
   border-radius: 30px;
@@ -187,7 +187,7 @@ nav {
 .brand-btn:hover,
 .brand-btn:focus {
   background-color: transparent;
-  color: #ef4b42;
+  color: #812991;
 }
 
 #development-img {
@@ -235,7 +235,7 @@ nav {
 #services ul li .fas,
 #services ul li .fab {
   font-size: 80px;
-  color: #ef4b42;
+  color: #812991;
 }
 
 #services ul li div {
@@ -380,7 +380,7 @@ nav {
 }
 
 footer {
-  background-color: #ef4b42;
+  background-color: #812991;
   padding: 3em 4em 2em;
 }
 
@@ -565,7 +565,7 @@ a#gotop {
   padding: 20px 0 0px;
   color: #fff;
   font-family: lato;
-  font-size: 25px;
+  font-size: 12px;
 }
 
 #owner a {
@@ -690,7 +690,7 @@ a#gotop {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #ef4b42;
+    background-color: #812991;
     width: 100%;
     padding: 1em 2em 2em;
     z-index: 1;
@@ -1333,7 +1333,7 @@ h5,
 h6 {
   margin: 0 0 20px 0;
   text-transform: none;
-  color: rgba(254, 82, 76, 1);
+  color: #812991;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
