@@ -3,6 +3,7 @@ import logo from "./images/logo.png";
 import Footer from "./Component/Footer";
 import Team from "./Component/Team";
 import Partners from "./Component/Partners";
+import Client from "./Component/Client";
 
 function App() {
   return (
@@ -198,70 +199,6 @@ function App() {
         </div>
       </section>
 
-      <section id="revenue" className="brand-logos">
-        <h1 className="sec-heading">
-          We Drive Growth & Revenue for the Best Companies
-        </h1>
-        <div>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/lmvtthec9yn0ti6/Allianz.png?raw=1"
-              alt="Allianz"
-              title="Work with Allianz"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/kotgq2u4qr34i2u/audi.jpg?raw=1"
-              alt="Audi"
-              title="Work with Audi"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/t5dapt3lkz7rdhe/BMW.png?raw=1"
-              alt="BMW"
-              title="Work with BMW"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/ocqbsbgj590ztyy/ESPN.png?raw=1"
-              alt="ESPN"
-              title="Work with ESPN"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/2maaqxijcmbaqxg/LG.png?raw=1"
-              alt="LG"
-              title="Work with LG"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/yn3gj203hrdjfu7/Logo_NIKE.png?raw=1"
-              alt="Nike"
-              title="Work with Nike"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/gfxa6exv7h1ro6q/Suzuki_logo.png?raw=1"
-              alt="Suzuki"
-              title="Work with Suzuki"
-            />
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/b7vwmjf6e0owybv/Visa.svg?raw=1"
-              alt="Visa"
-              title="Work with Visa"
-            />
-          </a>
-        </div>
-      </section>
-
       <Team />
 
       <section id="highlights">
@@ -292,54 +229,7 @@ function App() {
       </section>
 
       <Partners />
-
-      <section id="topList" className="brand-logos">
-        <h1 className="sec-heading">
-          Recognition as Top Mobile Development Company
-        </h1>
-        <div>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/19czj59oq0orbfa/tm.png?raw=1"
-              alt="Top 10 MobleApp Development Companies"
-              title="Top 10 MobleApp Development Companies"
-            />
-            <span>Recognised Among Top 10 MobleApp Development Companies</span>
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/130734rofy1f261/tata.png?raw=1"
-              alt="Top 10 MobleApp Development Companies"
-              title="Top 10 MobleApp Development Companies"
-            />
-            <span>Recognised Among Top 10 MobleApp Development Companies</span>
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/k17kwv9hiu9w98d/Infosys_logo.png?raw=1"
-              alt="Top 10 MobleApp Development Companies"
-              title="Top 10 MobleApp Development Companies"
-            />
-            <span>Recognised Among Top 10 MobleApp Development Companies</span>
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/mm4cnforc4pvwac/Wipro_Logo.png?raw=1"
-              alt="Top 10 MobleApp Development Companies"
-              title="Top 10 MobleApp Development Companies"
-            />
-            <span>Recognised Among Top 10 MobleApp Development Companies</span>
-          </a>
-          <a href="/#">
-            <img
-              src="https://www.dropbox.com/s/n4scpig8b3tfqkq/Amazon_logo.svg?raw=1"
-              alt="Top 10 MobleApp Development Companies"
-              title="Top 10 MobleApp Development Companies"
-            />
-            <span>Recognised Among Top 10 MobleApp Development Companies</span>
-          </a>
-        </div>
-      </section>
+      <Client />
       <Footer />
     </div>
   );
